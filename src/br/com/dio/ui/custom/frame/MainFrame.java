@@ -1,11 +1,11 @@
-package br.com.dio.ui.custom.frame;
+package br.com.dio.custom.frame;
 
 import javax.swing.*;
 import java.awt.*;
 
 public class MainFrame extends JFrame {
 
-    public MainFrame(final Dimension dimension, final JPanel mainPanel){
+    public MainFrame(final Dimension dimension, JPanel Panel){
         super("Sudoko");
         this.setSize(dimension);
         this.setPreferredSize(dimension);
@@ -13,6 +13,8 @@ public class MainFrame extends JFrame {
         this.setVisible(true);
         this.setLocationRelativeTo(null);
         this.setResizable(false);
-        this.add(mainPanel);
+        this.add(Panel);
+        this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
     }
 }

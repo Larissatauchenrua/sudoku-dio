@@ -1,4 +1,4 @@
-package br.com.dio.ui.custom.panel;
+package br.com.dio.custom.panel;
 
 import javax.swing.*;
 import java.awt.*;

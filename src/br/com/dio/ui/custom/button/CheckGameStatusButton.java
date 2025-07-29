@@ -1,4 +1,4 @@
-package br.com.dio.ui.custom.button;
+package br.com.dio.custom.button;
 
 import javax.swing.*;
 import java.awt.event.ActionListener;
