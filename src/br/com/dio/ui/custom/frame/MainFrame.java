@@ -1,4 +1,4 @@
-package br.com.dio.custom.frame;
+package br.com.dio.ui.custom.frame;
 
 import javax.swing.*;
 import java.awt.*;

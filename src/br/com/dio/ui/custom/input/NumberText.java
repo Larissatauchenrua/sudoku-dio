@@ -1,4 +1,4 @@
-package br.com.dio.custom.input;
+package br.com.dio.ui.custom.input;
 
 import br.com.dio.model.Space;
 import br.com.dio.service.EventEnum;

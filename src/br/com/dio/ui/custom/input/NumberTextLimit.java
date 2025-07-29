@@ -1,4 +1,4 @@
-package br.com.dio.custom.input;
+package br.com.dio.ui.custom.input;
 
 import javax.swing.text.AttributeSet;
 import javax.swing.text.BadLocationException;

@@ -1,14 +1,14 @@
-package br.com.dio.custom.screen;
+package br.com.dio.ui.custom.screen;
 
 import br.com.dio.model.GameStatusEnum;
 import br.com.dio.model.Space;
 import br.com.dio.service.BoardService;
 import br.com.dio.service.NotifierService;
-import br.com.dio.custom.button.ResetButton;
-import br.com.dio.custom.frame.MainFrame;
-import br.com.dio.custom.input.NumberText;
-import br.com.dio.custom.panel.MainPanel;
-import br.com.dio.custom.panel.SudokuSector;
+import br.com.dio.ui.custom.button.ResetButton;
+import br.com.dio.ui.custom.frame.MainFrame;
+import br.com.dio.ui.custom.input.NumberText;
+import br.com.dio.ui.custom.panel.MainPanel;
+import br.com.dio.ui.custom.panel.SudokuSector;
 
 import javax.swing.*;
 import java.awt.*;

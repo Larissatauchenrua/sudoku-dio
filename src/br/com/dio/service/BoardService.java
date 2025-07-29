@@ -52,8 +52,9 @@ public class BoardService {
                     spaces.get(i).add(new Space(0, false));
                     continue;
                 }
-                int expected = Integer.parseInt(positionConfig.split(",")[0]);
-                boolean fixed = Boolean.parseBoolean(positionConfig.split(",")[1]);
+                String[] parts = positionConfig.split(":");
+                int expected = Integer.parseInt(parts[0]);
+                boolean fixed = Boolean.parseBoolean(parts[1]);
 
                 var currentSpace = new Space(expected, fixed);
                 spaces.get(i).add(currentSpace);
